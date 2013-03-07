@@ -131,7 +131,7 @@ void fileAddedToDir(ConstFSEventStreamRef streamRef,
     }
     syncronizeThreads();
 }
-//This function is used to loop through the folders to look for images.
+//This function is used to loop through the folders to look for images. 
 void startCheck(location* loc, char* dir, int recursive){
     struct image* img;
     DIR *dp;
